@@ -6,10 +6,14 @@ extern AGE::Application* AGE::CreateApplication();
 
 int main(int argc, char**argv)
 {
-	printf("AGE GAME ENGINE!\n");
+	AGE::Log::Init();
+	AGE_CORE_WARN("Poopoo peepee");
+	AGE_INFO("gigga var = {0}", 5);
+
 	auto app = AGE::CreateApplication();
 	app->Run();
 	delete app;
 }
 
 #endif
+

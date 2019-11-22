@@ -15,3 +15,5 @@ Copyright (c) AGE 2019
 #else
 	#error Adam Game Engine only supports Windows!
 #endif
+
+//SWITCH TO BUILD SYSTEM SO I DON'T NEED TO COPY DLL OVER EACH BUILD!!!
